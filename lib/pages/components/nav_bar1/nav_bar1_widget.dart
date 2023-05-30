@@ -102,7 +102,16 @@ class _NavBar1WidgetState extends State<NavBar1Widget> {
                   size: 24.0,
                 ),
                 onPressed: () async {
-                  context.pushNamed('HomePage');
+                  context.pushNamed(
+                    'HomePage',
+                    extra: <String, dynamic>{
+                      kTransitionInfoKey: TransitionInfo(
+                        hasTransition: true,
+                        transitionType: PageTransitionType.fade,
+                        duration: Duration(milliseconds: 0),
+                      ),
+                    },
+                  );
                 },
               ),
               FlutterFlowIconButton(
@@ -174,7 +183,16 @@ class _NavBar1WidgetState extends State<NavBar1Widget> {
                         size: 24.0,
                       ),
                       onPressed: () async {
-                        context.goNamed('Cart_Draft');
+                        context.goNamed(
+                          'Cart_Draft',
+                          extra: <String, dynamic>{
+                            kTransitionInfoKey: TransitionInfo(
+                              hasTransition: true,
+                              transitionType: PageTransitionType.fade,
+                              duration: Duration(milliseconds: 0),
+                            ),
+                          },
+                        );
                       },
                     ),
                   ),
