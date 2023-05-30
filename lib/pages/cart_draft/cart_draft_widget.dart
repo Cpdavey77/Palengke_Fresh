@@ -2,8 +2,7 @@ import '/flutter_flow/flutter_flow_count_controller.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import '/pages/components/delete/delete_widget.dart';
-import '/pages/components/nav_bar1/nav_bar1_widget.dart';
+import '/pages/delete/delete_widget.dart';
 import 'package:aligned_dialog/aligned_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -499,18 +498,6 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                         ],
                       ),
                     ),
-                  ),
-                ),
-                Container(
-                  width: MediaQuery.of(context).size.width * 1.0,
-                  height: 80.0,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).secondaryBackground,
-                  ),
-                  child: wrapWithModel(
-                    model: _model.navBar1Model,
-                    updateCallback: () => setState(() {}),
-                    child: NavBar1Widget(),
                   ),
                 ),
               ],
