@@ -149,7 +149,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                         child: Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 4.0, 0.0),
+                                                  8.0, 0.0, 4.0, 0.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.max,
                                             mainAxisAlignment:
@@ -260,7 +260,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 4.0, 8.0),
+                                                    0.0, 0.0, 4.0, 0.0),
                                             child: Text(
                                               '₱11.00/kg',
                                               textAlign: TextAlign.end,
@@ -352,7 +352,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                         child: Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 4.0, 0.0),
+                                                  8.0, 0.0, 4.0, 0.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.max,
                                             mainAxisAlignment:
@@ -463,7 +463,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                           Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 4.0, 8.0),
+                                                    0.0, 0.0, 4.0, 0.0),
                                             child: Text(
                                               '₱11.00/kg',
                                               textAlign: TextAlign.end,

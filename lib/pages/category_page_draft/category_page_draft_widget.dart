@@ -235,7 +235,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   Expanded(
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 4.0, 0.0),
+                                          8.0, 0.0, 4.0, 0.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -336,7 +336,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 4.0, 8.0),
+                                            0.0, 0.0, 4.0, 0.0),
                                         child: Text(
                                           '₱0.00/kg',
                                           textAlign: TextAlign.end,
@@ -393,7 +393,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   Expanded(
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 4.0, 0.0),
+                                          8.0, 0.0, 4.0, 0.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -494,7 +494,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 4.0, 8.0),
+                                            0.0, 0.0, 4.0, 0.0),
                                         child: Text(
                                           '₱0.00/kg',
                                           textAlign: TextAlign.end,
@@ -551,7 +551,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   Expanded(
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 4.0, 0.0),
+                                          8.0, 0.0, 4.0, 0.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -652,7 +652,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 4.0, 8.0),
+                                            0.0, 0.0, 4.0, 0.0),
                                         child: Text(
                                           '₱0.00/kg',
                                           textAlign: TextAlign.end,
@@ -709,7 +709,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   Expanded(
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 4.0, 0.0),
+                                          8.0, 0.0, 4.0, 0.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -810,7 +810,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 4.0, 8.0),
+                                            0.0, 0.0, 4.0, 0.0),
                                         child: Text(
                                           '₱0.00/kg',
                                           textAlign: TextAlign.end,
@@ -867,7 +867,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   Expanded(
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          8.0, 8.0, 4.0, 0.0),
+                                          8.0, 0.0, 4.0, 0.0),
                                       child: Column(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -968,7 +968,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 4.0, 8.0),
+                                            0.0, 0.0, 4.0, 0.0),
                                         child: Text(
                                           '₱0.00/kg',
                                           textAlign: TextAlign.end,
