@@ -198,7 +198,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             image: DecorationImage(
                               fit: BoxFit.cover,
                               image: Image.asset(
-                                'assets/images/mmfwi_2.png',
+                                'assets/images/banner1.png',
                               ).image,
                             ),
                             boxShadow: [
