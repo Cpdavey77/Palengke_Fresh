@@ -50,7 +50,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).primary,
-          automaticallyImplyLeading: false,
+          automaticallyImplyLeading: true,
           title: Text(
             'Order Now',
             style: FlutterFlowTheme.of(context).displaySmall,
@@ -68,8 +68,8 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                   color: FlutterFlowTheme.of(context).secondaryText,
                   size: 24.0,
                 ),
-                onPressed: () {
-                  print('IconButton pressed ...');
+                onPressed: () async {
+                  context.pushNamed('Cart_Draft');
                 },
               ),
             ),
