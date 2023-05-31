@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'category_page_draft_model.dart';
 export 'category_page_draft_model.dart';
+import 'dart:io';
 
 class CategoryPageDraftWidget extends StatefulWidget {
   const CategoryPageDraftWidget({Key? key}) : super(key: key);
@@ -163,7 +164,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Poppins',
+                                        fontFamily: 'Roboto',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
                                         fontSize: 14.0,
@@ -257,7 +258,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 20.0,
                                                 ),
                                           ),
@@ -266,7 +267,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 12.0,
                                                 ),
                                           ),
@@ -324,7 +325,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                             ),
@@ -350,7 +351,11 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                           pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                                              .bodyMedium
+                                              .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 16.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -415,7 +420,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 20.0,
                                                 ),
                                           ),
@@ -424,7 +429,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 12.0,
                                                 ),
                                           ),
@@ -482,7 +487,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                             ),
@@ -508,7 +513,11 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                           pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                                              .bodyMedium
+                                              .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 16.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -573,7 +582,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 20.0,
                                                 ),
                                           ),
@@ -582,7 +591,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 12.0,
                                                 ),
                                           ),
@@ -640,7 +649,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                             ),
@@ -666,7 +675,11 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                           pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                                              .bodyMedium
+                                              .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 16.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -731,7 +744,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 20.0,
                                                 ),
                                           ),
@@ -740,7 +753,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 12.0,
                                                 ),
                                           ),
@@ -798,7 +811,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                             ),
@@ -824,7 +837,11 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                           pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                                              .bodyMedium
+                                              .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 16.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -889,7 +906,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .headlineSmall
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 20.0,
                                                 ),
                                           ),
@@ -898,7 +915,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Poppins',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 12.0,
                                                 ),
                                           ),
@@ -956,7 +973,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                             ),
@@ -982,7 +999,11 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                           pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyMedium,
+                                              .bodyMedium
+                                              .override(
+                                            fontFamily: 'Roboto',
+                                            fontSize: 16.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -1053,7 +1074,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .headlineSmall
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 20.0,
                                                       ),
                                             ),
@@ -1063,7 +1084,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 12.0,
                                                       ),
                                             ),
@@ -1127,7 +1148,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                     FlutterFlowTheme.of(context)
                                                         .labelMedium
                                                         .override(
-                                                          fontFamily: 'Poppins',
+                                                          fontFamily: 'Roboto',
                                                           fontSize: 16.0,
                                                         ),
                                               ),
@@ -1183,7 +1204,13 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                     children: [
                       Text(
                         'Total: ₱0.00',
-                        style: FlutterFlowTheme.of(context).bodyMedium,
+                        style: FlutterFlowTheme.of(context)
+                            .bodyMedium
+                            .override(
+                            fontFamily: 'Roboto',
+                            fontSize: 16
+                        )
+
                       ),
                       FFButtonWidget(
                         onPressed: () {
@@ -1199,7 +1226,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Poppins',
+                                    fontFamily: 'Roboto',
                                     color: Colors.white,
                                     fontSize: 13.0,
                                   ),

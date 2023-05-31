@@ -517,7 +517,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF101213),
                                                 fontSize: 18.0,
                                                 fontWeight: FontWeight.w500,
@@ -532,7 +532,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF57636C),
                                                 fontSize: 14.0,
                                                 fontWeight: FontWeight.normal,
@@ -597,7 +597,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF101213),
                                                 fontSize: 18.0,
                                                 fontWeight: FontWeight.w500,
@@ -612,7 +612,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF57636C),
                                                 fontSize: 14.0,
                                                 fontWeight: FontWeight.normal,
@@ -677,7 +677,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF101213),
                                                 fontSize: 18.0,
                                                 fontWeight: FontWeight.w500,
@@ -692,7 +692,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           style: FlutterFlowTheme.of(context)
                                               .bodySmall
                                               .override(
-                                                fontFamily: 'Outfit',
+                                                fontFamily: 'Roboto',
                                                 color: Color(0xFF57636C),
                                                 fontSize: 14.0,
                                                 fontWeight: FontWeight.normal,

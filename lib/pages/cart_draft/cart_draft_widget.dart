@@ -52,7 +52,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
           title: Text(
             'My Cart',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
-                  fontFamily: 'Poppins',
+                  fontFamily: 'Roboto',
                   color: Colors.white,
                   fontSize: 22.0,
                 ),
@@ -163,7 +163,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                     FlutterFlowTheme.of(context)
                                                         .headlineSmall
                                                         .override(
-                                                          fontFamily: 'Poppins',
+                                                          fontFamily: 'Roboto',
                                                           fontSize: 20.0,
                                                         ),
                                               ),
@@ -173,7 +173,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Poppins',
+                                                          fontFamily: 'Roboto',
                                                           fontSize: 12.0,
                                                         ),
                                               ),
@@ -237,7 +237,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                           context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                                 ),
@@ -266,7 +266,11 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                               textAlign: TextAlign.end,
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                                      .bodyMedium
+                                                      .override(
+                                                      fontFamily: 'Roboto',
+                                                      fontSize: 16
+                                                  ),
                                             ),
                                           ),
                                         ],
@@ -366,7 +370,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                     FlutterFlowTheme.of(context)
                                                         .headlineSmall
                                                         .override(
-                                                          fontFamily: 'Poppins',
+                                                          fontFamily: 'Roboto',
                                                           fontSize: 20.0,
                                                         ),
                                               ),
@@ -376,7 +380,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                     FlutterFlowTheme.of(context)
                                                         .bodyMedium
                                                         .override(
-                                                          fontFamily: 'Poppins',
+                                                          fontFamily: 'Roboto',
                                                           fontSize: 12.0,
                                                         ),
                                               ),
@@ -440,7 +444,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                                           context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Poppins',
+                                                        fontFamily: 'Roboto',
                                                         fontSize: 16.0,
                                                       ),
                                                 ),
@@ -469,7 +473,11 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                                               textAlign: TextAlign.end,
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyMedium,
+                                                      .bodyMedium
+                                                      .override(
+                                                      fontFamily: 'Roboto',
+                                                      fontSize: 16
+                                                  ),
                                             ),
                                           ),
                                         ],
@@ -515,7 +523,7 @@ class _CartDraftWidgetState extends State<CartDraftWidget> {
                               textStyle: FlutterFlowTheme.of(context)
                                   .titleSmall
                                   .override(
-                                    fontFamily: 'Poppins',
+                                    fontFamily: 'Roboto',
                                     color: Colors.white,
                                     fontSize: 13.0,
                                   ),
