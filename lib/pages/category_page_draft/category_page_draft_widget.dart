@@ -14,6 +14,8 @@ export 'category_page_draft_model.dart';
 class CategoryPageDraftWidget extends StatefulWidget {
   const CategoryPageDraftWidget({Key? key}) : super(key: key);
 
+
+
   @override
   _CategoryPageDraftWidgetState createState() =>
       _CategoryPageDraftWidgetState();
@@ -24,6 +26,13 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   final _unfocusNode = FocusNode();
+
+  String pesoSign(double value) {
+    var format = NumberFormat.simpleCurrency(locale: 'fil');
+    var peso = format.currencySymbol;
+    var currency = '$peso $value /kg';
+    return currency;
+  }
 
   @override
   void initState() {
@@ -253,7 +262,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            '₱0.00/kg',
+                                            pesoSign(0.00),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -338,7 +347,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 4.0, 0.0),
                                         child: Text(
-                                          '₱0.00/kg',
+                                          pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
@@ -411,7 +420,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            '₱0.00/kg',
+                                            pesoSign(0.00),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -496,7 +505,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 4.0, 0.0),
                                         child: Text(
-                                          '₱0.00/kg',
+                                          pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
@@ -569,7 +578,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            '₱0.00/kg',
+                                            pesoSign(0.00),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -654,7 +663,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 4.0, 0.0),
                                         child: Text(
-                                          '₱0.00/kg',
+                                          pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
@@ -727,7 +736,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            '₱0.00/kg',
+                                            pesoSign(0.00),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -812,7 +821,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 4.0, 0.0),
                                         child: Text(
-                                          '₱0.00/kg',
+                                          pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
@@ -885,7 +894,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            '₱0.00/kg',
+                                            pesoSign(0.00),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -970,7 +979,7 @@ class _CategoryPageDraftWidgetState extends State<CategoryPageDraftWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 4.0, 0.0),
                                         child: Text(
-                                          '₱0.00/kg',
+                                          pesoSign(0.00),
                                           textAlign: TextAlign.end,
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium,
